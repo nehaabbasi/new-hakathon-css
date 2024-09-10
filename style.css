@@ -1,0 +1,153 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+width: 80%;
+margin: auto;
+}
+ul li{
+list-style-type: none;
+display: inline;
+margin-left: 50px;
+font-size: 20px;
+font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+a:hover{
+color: aliceblue;
+    background-color: grey;
+}
+.btn button{
+padding: 14px;
+margin-right: 20px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 10px;
+background-color: rgb(128, 212, 59);
+box-shadow: 0px 0px 5px black;
+}
+
+.content{
+font-size: 30px;
+margin-top: 50px;
+}
+.text{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button2 button{
+    padding: 14px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(26, 26, 41);
+    color: white;
+    box-shadow: 0px 0p 10px rgb(126, 206, 36);
+}
+.contentpic{
+    float: right;
+    margin-top: -450px;
+   
+}
+   
+.sites{
+margin: auto;
+}
+.section{
+margin-top: 70px;
+display: flex;
+font-size: 20px;
+gap: 70px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.card{
+margin-top: 100px;
+display: flex;
+gap: 100px;
+}
+.label{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.label p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card2{
+margin-top: 20px;
+
+
+}
+@media only screen and (max-width:768px){
+  .link ul {
+ visibility: hidden;
+    }
+
+    .btn button{
+        margin-right: 20px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: rgb(128, 212, 59);
+        box-shadow: 0px 0px 5px black;
+        width: 90px;
+        margin-top: -10px;
+}
+.content{
+    font-size: 20px;
+    margin-top: -10px;
+
+}
+.contentpic{
+  width: 10px;
+  height: 10px;
+  margin-left: 
+
+}
+.text{
+margin-top: 40px;
+font-size: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.card{
+    margin-top: 100px;
+    display: block;
+    gap: 100px;}
+
+    .label{
+        display: block;
+        gap: 70px;
+        margin-top: 50px;
+        justify-content: center;
+}
+.sites{
+  width: 50%;
+
+
+}
